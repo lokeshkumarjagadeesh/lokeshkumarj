@@ -41,8 +41,7 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Transforming raw data into actionable insights using Python, SQL, Power BI, and Tableau. 
-            Specialized in data visualization and business intelligence solutions.
+            I am a Data Analyst with hands-on experience in turning raw data into meaningful insights using Python, SQL, Excel, Power BI, and Tableau. I specialize in data cleaning, transformation, and visualization to support business decision-making. My work focuses on building impactful dashboards and data-driven solutions that improve performance and efficiency.
           </p>
 
           {/* CTA Buttons */}
