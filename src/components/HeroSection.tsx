@@ -41,7 +41,7 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            I'm a Data Analyst with expertise in data transformation and dashboarding. I help businesses make smarter decisions through clean, insightful analytics.
+            Skilled in transforming raw data into actionable insights using Python, SQL, Excel, Power BI, and Tableau. Focused on delivering clean, meaningful analytics that support smart business decisions.
           </p>
 
           {/* CTA Buttons */}
