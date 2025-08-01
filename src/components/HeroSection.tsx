@@ -1,18 +1,16 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown, Download, Eye } from "lucide-react";
-
 const HeroSection = () => {
   const scrollToProjects = () => {
-    document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('projects')?.scrollIntoView({
+      behavior: 'smooth'
+    });
   };
-
   const downloadResume = () => {
     // In a real implementation, this would download the actual resume PDF
     window.open('#', '_blank');
   };
-
-  return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/20 rounded-full blur-3xl animate-pulse"></div>
@@ -40,27 +38,16 @@ const HeroSection = () => {
             </span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Skilled in transforming raw data into actionable insights using Python, SQL, Excel, Power BI, and Tableau. Focused on delivering clean, meaningful analytics that support smart business decisions.
-          </p>
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl leading-relaxed px-0 mx-[84px]">Skilled in transforming raw data into actionable insights using Analytical Tools. Focused on delivering clean, meaningful analytics that support smart business decisions.</p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
-            <Button 
-              variant="hero" 
-              size="lg"
-              onClick={scrollToProjects}
-              className="group"
-            >
+            <Button variant="hero" size="lg" onClick={scrollToProjects} className="group">
               <Eye className="mr-2 h-5 w-5" />
               View My Work
               <ChevronDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
             </Button>
-            <Button 
-              variant="glass" 
-              size="lg"
-              onClick={downloadResume}
-            >
+            <Button variant="glass" size="lg" onClick={downloadResume}>
               <Download className="mr-2 h-5 w-5" />
               Download Resume
             </Button>
@@ -72,8 +59,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
