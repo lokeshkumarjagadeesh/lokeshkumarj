@@ -26,7 +26,7 @@ const HeroSection = () => {
               <div className="w-40 h-40 rounded-full bg-background border-4 border-primary/30 shadow-glow overflow-hidden">
                 <img src={profileImage} alt="Lokeshkumar J" className="w-full h-full object-contain" />
               </div>
-              <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-20"></div>
+              <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-20 bg-slate-50 mx-0 px-0 my-0 py-0"></div>
             </div>
           </div>
 
