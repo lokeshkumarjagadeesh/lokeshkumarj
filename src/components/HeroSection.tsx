@@ -24,7 +24,7 @@ const HeroSection = () => {
           <div className="mb-8 flex justify-center">
             <div className="relative">
               <div className="w-40 h-40 rounded-full bg-gradient-card border-4 border-primary/30 shadow-glow overflow-hidden">
-                <img src={profileImage} alt="Lokeshkumar J" className="w-full h-full object-cover" />
+                <img src={profileImage} alt="Lokeshkumar J" className="w-full h-full object-cover object-center scale-110" />
               </div>
               <div className="absolute inset-0 bg-gradient-primary opacity-20 bg-slate-50 rounded-none"></div>
             </div>
