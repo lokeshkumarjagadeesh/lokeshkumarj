@@ -38,7 +38,7 @@ const HeroSection = () => {
             </span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl leading-relaxed px-0 mx-[84px]">Skilled in transforming raw data into actionable insights using Analytical Tools. Focused on delivering clean, meaningful analytics that support smart business decisions.</p>
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl leading-relaxed px-0 mx-[82px]">Skilled in transforming raw data into actionable insights using Analytical Tools. Focused on delivering clean, meaningful analytics that support smart business decisions.</p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
