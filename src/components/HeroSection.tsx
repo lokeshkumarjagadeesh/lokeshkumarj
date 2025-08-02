@@ -31,7 +31,7 @@ const HeroSection = () => {
 
           {/* Main Content */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="text-foreground">Lokeshkumar J,</span>
+            <span className="text-foreground">Lokeshkumar J</span>
             <br />
             <span className="bg-gradient-primary bg-clip-text text-transparent">
               Data Analyst
