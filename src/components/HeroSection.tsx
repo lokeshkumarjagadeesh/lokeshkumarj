@@ -11,7 +11,7 @@ const HeroSection = () => {
     // In a real implementation, this would download the actual resume PDF
     window.open('#', '_blank');
   };
-  return <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center bg-background overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/20 rounded-full blur-3xl animate-pulse"></div>
@@ -23,7 +23,7 @@ const HeroSection = () => {
           {/* Profile Image Frame */}
           <div className="mb-8 flex justify-center">
             <div className="relative">
-              <div className="w-40 h-40 rounded-full bg-gradient-card border-4 border-primary/30 shadow-glow overflow-hidden">
+              <div className="w-40 h-40 rounded-full bg-background border-4 border-primary/30 shadow-glow overflow-hidden">
                 <img src={profileImage} alt="Lokeshkumar J" className="w-full h-full object-contain" />
               </div>
               <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-20"></div>
