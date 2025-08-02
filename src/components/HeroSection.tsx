@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown, Download, Eye } from "lucide-react";
+import profileImage from "@/assets/lokesh.jpg";
 const HeroSection = () => {
   const scrollToProjects = () => {
     document.getElementById('projects')?.scrollIntoView({
@@ -22,8 +23,8 @@ const HeroSection = () => {
           {/* Profile Image Frame */}
           <div className="mb-8 flex justify-center">
             <div className="relative">
-              <div className="w-40 h-40 rounded-full bg-gradient-card border-4 border-primary/30 shadow-glow flex items-center justify-center">
-                <div className="text-4xl font-bold text-primary/60">LJ</div>
+              <div className="w-40 h-40 rounded-full bg-gradient-card border-4 border-primary/30 shadow-glow overflow-hidden">
+                <img src={profileImage} alt="Lokeshkumar J" className="w-full h-full object-cover" />
               </div>
               <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-20"></div>
             </div>
