@@ -19,7 +19,7 @@ const ProjectsSection = () => {
       description: "Comprehensive system for managing book records, transactions, and user accounts with an intuitive command-line interface.",
       technologies: ["Python", "SQL", "SQLite", "CLI"],
       icon: BookOpen,
-      githubUrl: "#",
+      githubUrl: "https://github.com/lokeshkumarjagadeesh/Library-Management-System/blob/main/Library.py",
       demoUrl: "#",
       gradient: "from-blue-500 to-purple-500"
     },
