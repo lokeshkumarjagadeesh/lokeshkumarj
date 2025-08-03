@@ -179,20 +179,21 @@ const ContactSection = () => {
                 </CardHeader>
                 <CardContent className="space-y-6">
                   {contactInfo.map((info) => (
-                    <div key={info.label} className="flex items-center gap-4">
+                    <a 
+                      key={info.label} 
+                      href={info.href}
+                      className="flex items-center gap-4 hover:bg-muted/50 p-2 rounded-lg transition-colors duration-300"
+                    >
                       <div className="p-3 bg-primary/20 rounded-lg">
                         <info.icon className="h-5 w-5 text-primary" />
                       </div>
                       <div>
                         <p className="text-sm text-muted-foreground">{info.label}</p>
-                        <a 
-                          href={info.href}
-                          className="font-medium hover:text-primary transition-colors duration-300"
-                        >
+                        <span className="font-medium hover:text-primary transition-colors duration-300">
                           {info.value}
-                        </a>
+                        </span>
                       </div>
-                    </div>
+                    </a>
                   ))}
                 </CardContent>
               </Card>
