@@ -62,7 +62,7 @@ const ContactSection = () => {
       icon: Mail,
       label: "Email",
       value: "lokeshkumarjagadeesh@gmail.com",
-      href: "mailto:lokeshkumarjagadeesh@gmail.com"
+      href: "https://mail.google.com"
     },
     {
       icon: Phone,
