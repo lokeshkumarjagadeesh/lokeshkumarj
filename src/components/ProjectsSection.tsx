@@ -20,7 +20,7 @@ const ProjectsSection = () => {
       technologies: ["Python", "SQL", "SQLite", "CLI"],
       icon: BookOpen,
       githubUrl: "https://github.com/lokeshkumarjagadeesh/Library-Management-System/blob/main/Library.py",
-      demoUrl: "#",
+      demoUrl: "https://github.com/lokeshkumarjagadeesh/Library-Management-System",
       gradient: "from-blue-500 to-purple-500"
     },
     {
