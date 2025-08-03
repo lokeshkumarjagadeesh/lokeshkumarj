@@ -67,7 +67,7 @@ const Footer = () => {
                   </a>
                 </Button>
                 <Button variant="ghost" size="sm" asChild className="hover:text-red-400">
-                  <a href="mailto:lokeshkumarjagadeesh@gmail.com">
+                  <a href="https://mail.google.com" target="_blank" rel="noopener noreferrer">
                     <Mail className="h-5 w-5" />
                   </a>
                 </Button>
