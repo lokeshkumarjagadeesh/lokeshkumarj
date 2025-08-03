@@ -82,13 +82,13 @@ const ContactSection = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "#",
+      href: "https://www.linkedin.com/in/lokeshkumarjagadeesh",
       color: "hover:text-blue-400"
     },
     {
       icon: Github,
       label: "GitHub",
-      href: "#",
+      href: "https://github.com/lokeshkumarjagadeesh",
       color: "hover:text-purple-400"
     },
     {
