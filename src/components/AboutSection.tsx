@@ -1,7 +1,9 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { GraduationCap, Briefcase, Calendar, MapPin } from "lucide-react";
+
 const AboutSection = () => {
-  return <section id="about" className="py-20 bg-background">
+  return (
+    <section id="about" className="py-20 bg-background">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
@@ -51,14 +53,14 @@ const AboutSection = () => {
                   <div className="p-3 bg-accent/20 rounded-lg mr-4">
                     <Briefcase className="h-6 w-6 text-accent" />
                   </div>
-                  <h3 className="text-2xl font-semibold">Intern Experience</h3>
+                  <h3 className="text-2xl font-semibold">Experience</h3>
                 </div>
                 
                 <div className="space-y-6">
                   <div className="border-l-2 border-accent/30 pl-6 pb-6">
                     <div className="flex items-center text-sm text-muted-foreground mb-2">
                       <Calendar className="h-4 w-4 mr-2" />
-                      <span>March 2025 - August 2025</span>
+                      <span>March 2024 - August 2024</span>
                     </div>
                     <h4 className="text-lg font-semibold text-foreground mb-2">
                       Data Analyst Intern
@@ -79,6 +81,8 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default AboutSection;
