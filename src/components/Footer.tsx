@@ -57,12 +57,12 @@ const Footer = () => {
               </div>
               <div className="flex gap-3 pt-2">
                 <Button variant="ghost" size="sm" asChild className="hover:text-blue-400">
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/lokeshkumarjagadeesh" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="h-5 w-5" />
                   </a>
                 </Button>
                 <Button variant="ghost" size="sm" asChild className="hover:text-purple-400">
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/lokeshkumarjagadeesh" target="_blank" rel="noopener noreferrer">
                     <Github className="h-5 w-5" />
                   </a>
                 </Button>
