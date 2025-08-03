@@ -94,7 +94,7 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      href: "mailto:lokeshkumarjagadeesh@gmail.com",
+      href: "https://mail.google.com",
       color: "hover:text-red-400"
     }
   ];
