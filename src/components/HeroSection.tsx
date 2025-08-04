@@ -11,24 +11,60 @@ const HeroSection = () => {
     window.open('https://drive.google.com/file/d/1pAeCi-nDnJbXfPGISZBb4816z4u5GgAb/view?usp=drivesdk', '_blank');
   };
   return <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
-      {/* Enhanced animated background mesh */}
-      <div className="absolute inset-0 bg-gradient-mesh opacity-60"></div>
+      {/* Multi-layered dynamic background */}
+      <div className="absolute inset-0 bg-gradient-mesh opacity-70"></div>
       
-      {/* Floating particles */}
+      {/* Aurora effect */}
       <div className="absolute inset-0 opacity-40">
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/30 rounded-full blur-3xl animate-pulse-glow"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/25 rounded-full blur-3xl animate-drift"></div>
-        <div className="absolute top-1/2 left-1/2 w-80 h-80 bg-primary/20 rounded-full blur-2xl animate-gradient-shift"></div>
-        <div className="absolute top-3/4 left-1/6 w-48 h-48 bg-accent/30 rounded-full blur-3xl animate-float"></div>
-        <div className="absolute top-1/6 right-1/6 w-56 h-56 bg-primary/25 rounded-full blur-2xl animate-pulse-glow delay-2000"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-aurora animate-aurora"></div>
       </div>
       
-      {/* Grid overlay for tech aesthetic */}
-      <div className="absolute inset-0 opacity-10">
+      {/* Enhanced particle system with multiple layers */}
+      <div className="absolute inset-0 opacity-50">
+        {/* Large floating orbs */}
+        <div className="absolute top-1/4 left-1/4 w-80 h-80 bg-primary/25 rounded-full blur-3xl animate-pulse-glow shadow-aurora"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/20 rounded-full blur-3xl animate-drift shadow-glow"></div>
+        <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-primary/30 rounded-full blur-2xl animate-gradient-shift"></div>
+        
+        {/* Medium floating elements */}
+        <div className="absolute top-3/4 left-1/6 w-48 h-48 bg-accent/35 rounded-full blur-3xl animate-float delay-1000"></div>
+        <div className="absolute top-1/6 right-1/6 w-56 h-56 bg-primary/25 rounded-full blur-2xl animate-pulse-glow delay-2000"></div>
+        <div className="absolute bottom-1/6 left-1/2 w-40 h-40 bg-accent/30 rounded-full blur-3xl animate-drift delay-3000"></div>
+        
+        {/* Small sparkle particles */}
+        <div className="absolute top-1/3 left-1/3 w-4 h-4 bg-primary rounded-full animate-sparkle delay-500"></div>
+        <div className="absolute top-2/3 right-1/3 w-3 h-3 bg-accent rounded-full animate-sparkle delay-1500"></div>
+        <div className="absolute bottom-1/3 left-2/3 w-5 h-5 bg-primary/80 rounded-full animate-sparkle delay-2500"></div>
+        <div className="absolute top-1/5 right-1/5 w-2 h-2 bg-accent rounded-full animate-sparkle delay-3500"></div>
+      </div>
+      
+      {/* Geometric elements */}
+      <div className="absolute inset-0 opacity-20">
+        {/* Orbiting elements */}
+        <div className="absolute top-1/2 left-1/2 w-2 h-2">
+          <div className="w-2 h-2 bg-primary rounded-full animate-orbit"></div>
+        </div>
+        <div className="absolute top-1/3 left-1/4 w-1 h-1">
+          <div className="w-1 h-1 bg-accent rounded-full animate-orbit delay-1000" style={{animationDuration: '20s'}}></div>
+        </div>
+        
+        {/* Geometric shapes */}
+        <div className="absolute top-1/4 right-1/3 w-20 h-20 border border-primary/30 rotate-45 animate-float"></div>
+        <div className="absolute bottom-1/3 left-1/4 w-16 h-16 border border-accent/30 animate-gradient-shift"></div>
+      </div>
+      
+      {/* Enhanced grid overlay */}
+      <div className="absolute inset-0 opacity-15">
         <div className="h-full w-full" style={{
           backgroundImage: `linear-gradient(hsl(var(--primary)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--primary)) 1px, transparent 1px)`,
-          backgroundSize: '60px 60px'
+          backgroundSize: '80px 80px'
         }}></div>
+      </div>
+      
+      {/* Radial light beams */}
+      <div className="absolute inset-0 opacity-30">
+        <div className="absolute top-1/2 left-1/2 w-full h-0.5 bg-gradient-to-r from-transparent via-primary/50 to-transparent transform -translate-x-1/2 -translate-y-1/2 rotate-45"></div>
+        <div className="absolute top-1/2 left-1/2 w-full h-0.5 bg-gradient-to-r from-transparent via-accent/40 to-transparent transform -translate-x-1/2 -translate-y-1/2 -rotate-45"></div>
       </div>
       
       <div className="container mx-auto px-6 relative z-10">
