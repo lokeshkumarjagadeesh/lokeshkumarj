@@ -60,10 +60,20 @@ const ProjectsSection = () => {
                       <project.icon className="h-6 w-6 text-primary" />
                     </div>
                     <div className="flex gap-2">
-                      <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
+                      <Button 
+                        variant="ghost" 
+                        size="sm" 
+                        className="h-8 w-8 p-0"
+                        onClick={() => window.open("https://github.com/lokeshkumarjagadeesh?tab=repositories", '_blank')}
+                      >
                         <Github className="h-4 w-4" />
                       </Button>
-                      <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
+                      <Button 
+                        variant="ghost" 
+                        size="sm" 
+                        className="h-8 w-8 p-0"
+                        onClick={() => window.open("https://github.com/lokeshkumarjagadeesh?tab=repositories", '_blank')}
+                      >
                         <ExternalLink className="h-4 w-4" />
                       </Button>
                     </div>
