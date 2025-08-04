@@ -8,8 +8,7 @@ const HeroSection = () => {
     });
   };
   const downloadResume = () => {
-    // In a real implementation, this would download the actual resume PDF
-    window.open('#', '_blank');
+    window.open('https://drive.google.com/file/d/1pAeCi-nDnJbXfPGISZBb4816z4u5GgAb/view?usp=drivesdk', '_blank');
   };
   return <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
       {/* Animated background elements */}
