@@ -116,7 +116,11 @@ const ProjectsSection = () => {
           </div>
 
           <div className="text-center mt-12">
-            <Button variant="glass" size="lg">
+            <Button 
+              variant="glass" 
+              size="lg"
+              onClick={() => window.open("https://github.com/lokeshkumarjagadeesh?tab=repositories", '_blank')}
+            >
               <Github className="mr-2 h-5 w-5" />
               View All Projects on GitHub
             </Button>
