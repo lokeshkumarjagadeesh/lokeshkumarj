@@ -28,8 +28,8 @@ const ProjectsSection = () => {
       description: "End-to-end dashboarding solution for tracking project performance with interactive visualizations and real-time analytics.",
       technologies: ["Power BI", "Tableau", "Excel", "Python", "SQL"],
       icon: BarChart3,
-      githubUrl: "#",
-      demoUrl: "#",
+      githubUrl: "https://github.com/lokeshkumarjagadeesh/Project-management-tracker",
+      demoUrl: "https://github.com/lokeshkumarjagadeesh/Project-management-tracker",
       gradient: "from-green-500 to-teal-500"
     }
   ];
