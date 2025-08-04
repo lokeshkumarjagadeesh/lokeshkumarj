@@ -11,10 +11,24 @@ const HeroSection = () => {
     window.open('https://drive.google.com/file/d/1pAeCi-nDnJbXfPGISZBb4816z4u5GgAb/view?usp=drivesdk', '_blank');
   };
   return <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
-      {/* Animated background elements */}
-      <div className="absolute inset-0 opacity-30">
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+      {/* Enhanced animated background mesh */}
+      <div className="absolute inset-0 bg-gradient-mesh opacity-60"></div>
+      
+      {/* Floating particles */}
+      <div className="absolute inset-0 opacity-40">
+        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/30 rounded-full blur-3xl animate-pulse-glow"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/25 rounded-full blur-3xl animate-drift"></div>
+        <div className="absolute top-1/2 left-1/2 w-80 h-80 bg-primary/20 rounded-full blur-2xl animate-gradient-shift"></div>
+        <div className="absolute top-3/4 left-1/6 w-48 h-48 bg-accent/30 rounded-full blur-3xl animate-float"></div>
+        <div className="absolute top-1/6 right-1/6 w-56 h-56 bg-primary/25 rounded-full blur-2xl animate-pulse-glow delay-2000"></div>
+      </div>
+      
+      {/* Grid overlay for tech aesthetic */}
+      <div className="absolute inset-0 opacity-10">
+        <div className="h-full w-full" style={{
+          backgroundImage: `linear-gradient(hsl(var(--primary)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--primary)) 1px, transparent 1px)`,
+          backgroundSize: '60px 60px'
+        }}></div>
       </div>
       
       <div className="container mx-auto px-6 relative z-10">
