@@ -10,8 +10,8 @@ const ProjectsSection = () => {
       description: "AI-powered tool that recognizes food items from images and returns detailed cooking recipes. Built with computer vision and machine learning techniques.",
       technologies: ["Python", "Flask", "HTML/CSS", "OpenCV", "TensorFlow"],
       icon: Utensils,
-      githubUrl: "#",
-      demoUrl: "#",
+      githubUrl: "https://github.com/lokeshkumarjagadeesh/varieties-of-food-recipe-with-image-processing-",
+      demoUrl: "https://github.com/lokeshkumarjagadeesh/varieties-of-food-recipe-with-image-processing-",
       gradient: "from-orange-500 to-red-500"
     },
     {
