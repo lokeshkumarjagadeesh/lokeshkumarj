@@ -71,7 +71,11 @@ export default {
 				'gradient-mesh': 'var(--gradient-mesh)',
 				'gradient-aurora': 'var(--gradient-aurora)',
 				'gradient-card': 'var(--gradient-card)',
-				'gradient-accent': 'var(--gradient-accent)'
+				'gradient-accent': 'var(--gradient-accent)',
+				'gradient-cosmic': 'var(--gradient-cosmic)',
+				'gradient-nebula': 'var(--gradient-nebula)',
+				'gradient-plasma': 'var(--gradient-plasma)',
+				'gradient-holographic': 'var(--gradient-holographic)'
 			},
 			boxShadow: {
 				'elegant': 'var(--shadow-elegant)',
@@ -140,6 +144,33 @@ export default {
 				'wave': {
 					'0%, 100%': { transform: 'scaleY(1)' },
 					'50%': { transform: 'scaleY(1.5)' }
+				},
+				'cosmic-rotate': {
+					'0%': { transform: 'rotate(0deg) scale(1)' },
+					'50%': { transform: 'rotate(180deg) scale(1.1)' },
+					'100%': { transform: 'rotate(360deg) scale(1)' }
+				},
+				'plasma-flow': {
+					'0%, 100%': { transform: 'translateX(-100%) translateY(0) rotate(0deg)' },
+					'25%': { transform: 'translateX(0) translateY(-50px) rotate(90deg)' },
+					'50%': { transform: 'translateX(100%) translateY(0) rotate(180deg)' },
+					'75%': { transform: 'translateX(0) translateY(50px) rotate(270deg)' }
+				},
+				'nebula-drift': {
+					'0%': { transform: 'translate(0, 0) scale(1) rotate(0deg)', opacity: '0.3' },
+					'33%': { transform: 'translate(50px, -30px) scale(1.2) rotate(120deg)', opacity: '0.6' },
+					'66%': { transform: 'translate(-30px, 40px) scale(0.8) rotate(240deg)', opacity: '0.4' },
+					'100%': { transform: 'translate(0, 0) scale(1) rotate(360deg)', opacity: '0.3' }
+				},
+				'holographic-shift': {
+					'0%, 100%': { transform: 'translateZ(0) rotateY(0deg)', filter: 'hue-rotate(0deg)' },
+					'25%': { transform: 'translateZ(20px) rotateY(90deg)', filter: 'hue-rotate(90deg)' },
+					'50%': { transform: 'translateZ(0) rotateY(180deg)', filter: 'hue-rotate(180deg)' },
+					'75%': { transform: 'translateZ(-20px) rotateY(270deg)', filter: 'hue-rotate(270deg)' }
+				},
+				'energy-pulse': {
+					'0%, 100%': { transform: 'scale(1)', opacity: '0.5', filter: 'brightness(1)' },
+					'50%': { transform: 'scale(1.3)', opacity: '0.9', filter: 'brightness(1.5)' }
 				}
 			},
 			animation: {
@@ -152,7 +183,12 @@ export default {
 				'aurora': 'aurora 15s ease-in-out infinite',
 				'sparkle': 'sparkle 3s ease-in-out infinite',
 				'orbit': 'orbit 30s linear infinite',
-				'wave': 'wave 4s ease-in-out infinite'
+				'wave': 'wave 4s ease-in-out infinite',
+				'cosmic-rotate': 'cosmic-rotate 20s ease-in-out infinite',
+				'plasma-flow': 'plasma-flow 18s ease-in-out infinite',
+				'nebula-drift': 'nebula-drift 35s ease-in-out infinite',
+				'holographic-shift': 'holographic-shift 16s ease-in-out infinite',
+				'energy-pulse': 'energy-pulse 5s ease-in-out infinite'
 			}
 		}
 	},

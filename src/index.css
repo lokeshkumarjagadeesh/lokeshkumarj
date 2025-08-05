@@ -44,12 +44,25 @@
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
     --gradient-hero: linear-gradient(135deg, hsl(var(--background)), hsl(220 20% 12%), hsl(214 30% 8%), hsl(var(--background)));
     --gradient-animated: linear-gradient(45deg, hsl(var(--primary) / 0.15), hsl(var(--accent) / 0.15), hsl(280 60% 50% / 0.1), hsl(var(--primary) / 0.15));
-    --gradient-mesh: radial-gradient(ellipse 800px 600px at top left, hsl(var(--primary) / 0.2), transparent 50%), 
-                     radial-gradient(ellipse 600px 800px at bottom right, hsl(var(--accent) / 0.25), transparent 50%),
-                     radial-gradient(ellipse 400px 400px at center, hsl(280 60% 50% / 0.1), transparent 70%);
-    --gradient-aurora: linear-gradient(90deg, hsl(var(--primary) / 0.3), hsl(var(--accent) / 0.4), hsl(280 70% 60% / 0.3), hsl(var(--primary) / 0.3));
+    --gradient-mesh: radial-gradient(ellipse 1200px 800px at top left, hsl(var(--primary) / 0.3), transparent 60%), 
+                     radial-gradient(ellipse 800px 1200px at bottom right, hsl(var(--accent) / 0.35), transparent 60%),
+                     radial-gradient(ellipse 600px 600px at center, hsl(280 60% 50% / 0.2), transparent 80%),
+                     radial-gradient(ellipse 400px 400px at 30% 70%, hsl(190 80% 60% / 0.15), transparent 70%);
+    --gradient-aurora: linear-gradient(90deg, hsl(var(--primary) / 0.4), hsl(var(--accent) / 0.5), hsl(280 70% 60% / 0.4), hsl(190 80% 60% / 0.3), hsl(var(--primary) / 0.4));
     --gradient-card: linear-gradient(145deg, hsl(var(--card)), hsl(220 16% 12%));
     --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--primary)));
+    --gradient-cosmic: conic-gradient(from 0deg at 50% 50%, hsl(var(--primary) / 0.3), hsl(var(--accent) / 0.4), hsl(280 70% 60% / 0.3), hsl(190 80% 60% / 0.2), hsl(var(--primary) / 0.3));
+    --gradient-nebula: radial-gradient(ellipse 100% 100% at 0% 0%, hsl(var(--primary) / 0.4), transparent 50%),
+                       radial-gradient(ellipse 100% 100% at 100% 100%, hsl(var(--accent) / 0.3), transparent 50%),
+                       radial-gradient(ellipse 100% 100% at 0% 100%, hsl(280 70% 60% / 0.2), transparent 50%),
+                       radial-gradient(ellipse 100% 100% at 100% 0%, hsl(190 80% 60% / 0.2), transparent 50%);
+    --gradient-plasma: linear-gradient(45deg, hsl(var(--primary) / 0.2), transparent 30%), 
+                       linear-gradient(-45deg, hsl(var(--accent) / 0.25), transparent 30%),
+                       linear-gradient(90deg, hsl(280 70% 60% / 0.15), transparent 30%);
+    --gradient-holographic: linear-gradient(125deg, hsl(var(--primary) / 0.3) 0%, transparent 40%), 
+                            linear-gradient(215deg, hsl(var(--accent) / 0.3) 0%, transparent 40%),
+                            linear-gradient(305deg, hsl(280 70% 60% / 0.2) 0%, transparent 40%),
+                            linear-gradient(35deg, hsl(190 80% 60% / 0.2) 0%, transparent 40%);
 
     /* Cinematic shadows with multiple layers */
     --shadow-elegant: 0 10px 40px -15px hsl(var(--primary) / 0.4);

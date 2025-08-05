@@ -11,31 +11,47 @@ const HeroSection = () => {
     window.open('https://drive.google.com/file/d/1pAeCi-nDnJbXfPGISZBb4816z4u5GgAb/view?usp=drivesdk', '_blank');
   };
   return <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
-      {/* Multi-layered dynamic background */}
-      <div className="absolute inset-0 bg-gradient-mesh opacity-70"></div>
+      {/* Multi-layered cosmic background */}
+      <div className="absolute inset-0 bg-gradient-mesh opacity-80"></div>
       
-      {/* Aurora effect */}
-      <div className="absolute inset-0 opacity-40">
+      {/* Nebula layers */}
+      <div className="absolute inset-0 bg-gradient-nebula opacity-60 animate-nebula-drift"></div>
+      
+      {/* Cosmic plasma effects */}
+      <div className="absolute inset-0 bg-gradient-cosmic opacity-50 animate-cosmic-rotate"></div>
+      
+      {/* Holographic overlay */}
+      <div className="absolute inset-0 bg-gradient-holographic opacity-40 animate-holographic-shift"></div>
+      
+      {/* Aurora effect enhanced */}
+      <div className="absolute inset-0 opacity-50">
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-aurora animate-aurora"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-plasma opacity-70 animate-plasma-flow"></div>
       </div>
       
-      {/* Enhanced particle system with multiple layers */}
-      <div className="absolute inset-0 opacity-50">
-        {/* Large floating orbs */}
-        <div className="absolute top-1/4 left-1/4 w-80 h-80 bg-primary/25 rounded-full blur-3xl animate-pulse-glow shadow-aurora"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/20 rounded-full blur-3xl animate-drift shadow-glow"></div>
-        <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-primary/30 rounded-full blur-2xl animate-gradient-shift"></div>
+      {/* Enhanced particle system with cosmic energy */}
+      <div className="absolute inset-0 opacity-60">
+        {/* Massive energy orbs */}
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/30 rounded-full blur-3xl animate-energy-pulse shadow-intense"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-[28rem] h-[28rem] bg-accent/25 rounded-full blur-3xl animate-nebula-drift shadow-aurora"></div>
+        <div className="absolute top-1/2 left-1/2 w-80 h-80 bg-primary/35 rounded-full blur-2xl animate-cosmic-rotate"></div>
         
-        {/* Medium floating elements */}
-        <div className="absolute top-3/4 left-1/6 w-48 h-48 bg-accent/35 rounded-full blur-3xl animate-float delay-1000"></div>
-        <div className="absolute top-1/6 right-1/6 w-56 h-56 bg-primary/25 rounded-full blur-2xl animate-pulse-glow delay-2000"></div>
-        <div className="absolute bottom-1/6 left-1/2 w-40 h-40 bg-accent/30 rounded-full blur-3xl animate-drift delay-3000"></div>
+        {/* Medium energy fields */}
+        <div className="absolute top-3/4 left-1/6 w-60 h-60 bg-accent/40 rounded-full blur-3xl animate-holographic-shift delay-1000"></div>
+        <div className="absolute top-1/6 right-1/6 w-72 h-72 bg-primary/30 rounded-full blur-2xl animate-energy-pulse delay-2000"></div>
+        <div className="absolute bottom-1/6 left-1/2 w-52 h-52 bg-accent/35 rounded-full blur-3xl animate-plasma-flow delay-3000"></div>
         
-        {/* Small sparkle particles */}
-        <div className="absolute top-1/3 left-1/3 w-4 h-4 bg-primary rounded-full animate-sparkle delay-500"></div>
-        <div className="absolute top-2/3 right-1/3 w-3 h-3 bg-accent rounded-full animate-sparkle delay-1500"></div>
-        <div className="absolute bottom-1/3 left-2/3 w-5 h-5 bg-primary/80 rounded-full animate-sparkle delay-2500"></div>
-        <div className="absolute top-1/5 right-1/5 w-2 h-2 bg-accent rounded-full animate-sparkle delay-3500"></div>
+        {/* Additional cosmic elements */}
+        <div className="absolute top-1/8 left-3/4 w-44 h-44 bg-primary/25 rounded-full blur-3xl animate-drift delay-4000"></div>
+        <div className="absolute bottom-1/8 right-1/8 w-36 h-36 bg-accent/30 rounded-full blur-2xl animate-float delay-5000"></div>
+        
+        {/* Enhanced sparkle particles */}
+        <div className="absolute top-1/3 left-1/3 w-6 h-6 bg-primary rounded-full animate-sparkle delay-500 shadow-glow"></div>
+        <div className="absolute top-2/3 right-1/3 w-5 h-5 bg-accent rounded-full animate-sparkle delay-1500 shadow-elegant"></div>
+        <div className="absolute bottom-1/3 left-2/3 w-7 h-7 bg-primary/90 rounded-full animate-sparkle delay-2500 shadow-glow"></div>
+        <div className="absolute top-1/5 right-1/5 w-4 h-4 bg-accent rounded-full animate-sparkle delay-3500 shadow-elegant"></div>
+        <div className="absolute bottom-1/5 left-1/5 w-3 h-3 bg-primary rounded-full animate-sparkle delay-4500"></div>
+        <div className="absolute top-4/5 right-3/5 w-5 h-5 bg-accent/80 rounded-full animate-sparkle delay-5500"></div>
       </div>
       
       {/* Geometric elements */}
