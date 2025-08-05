@@ -67,22 +67,15 @@ export default {
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
 				'gradient-hero': 'var(--gradient-hero)',
-				'gradient-animated': 'var(--gradient-animated)',
-				'gradient-mesh': 'var(--gradient-mesh)',
-				'gradient-aurora': 'var(--gradient-aurora)',
-				'gradient-card': 'var(--gradient-card)',
+				'gradient-professional': 'var(--gradient-professional)',
+				'gradient-subtle': 'var(--gradient-subtle)',
 				'gradient-accent': 'var(--gradient-accent)',
-				'gradient-cosmic': 'var(--gradient-cosmic)',
-				'gradient-nebula': 'var(--gradient-nebula)',
-				'gradient-plasma': 'var(--gradient-plasma)',
-				'gradient-holographic': 'var(--gradient-holographic)'
+				'gradient-overlay': 'var(--gradient-overlay)'
 			},
 			boxShadow: {
 				'elegant': 'var(--shadow-elegant)',
 				'card': 'var(--shadow-card)',
-				'glow': 'var(--shadow-glow)',
-				'intense': 'var(--shadow-intense)',
-				'aurora': 'var(--shadow-aurora)'
+				'subtle': 'var(--shadow-subtle)'
 			},
 			transitionTimingFunction: {
 				'smooth': 'var(--transition-smooth)',
